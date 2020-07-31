@@ -1,7 +1,7 @@
 # Nameless
 Unity project created during my first year of university for game development technologies course. 
 
-This repository contains two folders. One for engine game files and other for playable game files.
+This repository contains two folders. One for game engine files and other for playable game files.
 Playable version doesn't require installation of Unity game engine.
 
 This project was meant for game development technologies course where students were required to 
