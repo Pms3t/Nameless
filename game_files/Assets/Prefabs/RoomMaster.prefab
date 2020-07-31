@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9074360631731487865
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9074360631731487864}
+  - component: {fileID: 9074360631731487749}
+  - component: {fileID: 9074360631731487867}
+  - component: {fileID: 9074360631731487866}
+  - component: {fileID: 2427579434875054413}
+  m_Layer: 0
+  m_Name: RoomMaster
+  m_TagString: RoomMaster
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9074360631731487864
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9074360631731487865}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.6251564, y: -24.624107, z: 5.564331}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9074360631731487749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9074360631731487865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c693a2e11d5608343bbff39dfb264887, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _killGoal: 0
+  _currentKills: 0
+  _triggered: 0
+  _loopCount: 1
+  _waitTime: 9
+  addone: 0
+--- !u!114 &9074360631731487867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9074360631731487865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4e270266ee6ce6468eda96c8a44fc7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _manageableDoors:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &9074360631731487866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9074360631731487865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c72148012cca354eba7f3ab24d76618, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _spawningAreas:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  _enemyPrefabs:
+  - {fileID: 0}
+  _spawningRate: 1
+  _spawningOn: 0
+--- !u!114 &2427579434875054413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9074360631731487865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce5e72227e43b1448af7e564a039aeb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
